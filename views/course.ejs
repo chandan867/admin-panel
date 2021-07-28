@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<form action="/course" method="POST">
+  <label>Name of the course</label>
+    <input type="text" name="name">
+    <label>subAdmins separated with comma</label>
+    
+    <input type="text" name="access">
+    <button type="submit">Submit</button>
+  </form>
+
+  <ul>
+    <% users.forEach(( user)=>{ %>
+        <li> <%= user.name %>  <%= user.email %> </li>
+    <% }) %>
+ 
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+/*@import url(
+    'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');*/
+.d-flex::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/*home page month edition row1 starts*/
+.signup-heading{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+ .mag-heading{
+  font-size: 30px;
+}
+}
+input::-ms-reveal, input::-ms-clear {
+      display: none;
+    }
+.signup-card .card-body{
+  max-width: 515px;
+  height: 1016px;
+  background: #C4C4C4;
+  border: 6px solid black;
+  border-radius: 55px;
+}
+
+.addi1-card .card-body{
+   max-width: 515px;
+  height: 850px;
+  background: #C4C4C4;
+  border: 6px solid black;
+  border-radius: 55px;
+}
+.flag-container{
+  margin-left: 90px;
+  position: relative;
+}
+.intl-tel-input{
+  width: 100%;
+}
+.intl-tel-input .country-list{
+  position: absolute !important;
+  width: 280px !important;
+  max-height: 250px !important;
+}
+.signupbtn .btn, .addi1btn .btn{
+  min-width: 270px;
+  max-width: 334px;
+  height: 55px;
+  background: #C4C4C4;
+  border-radius: 8px;
+  margin-top: 100px;
+}
+.loginbtn .btn{
+   min-width: 270px;
+  max-width: 334px;
+  height: 55px;
+  background: #C4C4C4;
+  border-radius: 8px;
+}
+/*select dropdown floating */
+.floating-input, .floating-label { 
+  position:relative; 
+  margin-bottom:20px; 
+}
+.floating-input, .floating-select {
+  font-size:16px;
+  padding:4px 12px;
+  width:100%;
+  height:30px;
+}
+/*form-floating code edits */
+.addi1-form .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.addi1-form .form-floating>label {
+    padding: 1.3rem 0.75rem !important;
+    color:black; 
+}
+
+label {
+  color:#999; 
+  font-size:14px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:5px;
+  transition:0.2s ease all !important; 
+  -moz-transition:0.2s ease all !important; 
+  -webkit-transition:0.2s ease all !important;
+}
+.floating-input:focus ~ label, .floating-input:not(:placeholder-shown) ~ label {
+    top:-12px !important;
+    right: 2px;
+    font-size:12px;
+    color: black;
+}
+.floating-select:focus ~ label , .floating-select:not([value=""]):valid ~ label {
+  top:-12px;
+  right: 2px;
+  font-size:12px;
+  color: black;
+}
+
+.floating-select:focus ~ .bar:before, .floating-select:focus ~ .bar:after {
+  width:50%;
+}
+/*select dropdown floating ends */
+
+
+/*additional2 page starts*/
+.mobbox {
+        border: solid 10px black;
+        margin: auto;
+        max-width: 500px;
+        height: 400px;
+        background: #C4C4C4;
+        border-radius: 57px;
+    }
+    
+.drag {
+    margin-top: 20px !important;
+    margin: auto;
+    position: relative;
+    max-width: 716px;
+    height: 218px;
+    background: #FFFFFF;
+    border: 4px dashed #6A6A6A;
+    box-sizing: border-box;
+}
+
+.drag-input {
+    margin: auto;
+    opacity: 0;
+    border-radius: 20px;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 248px;
+}
+
+.nextskip {
+    margin-top: 50px !important;
+    max-width: 839px;
+    margin: auto;
+}
+
+.nextskip button {
+    font-weight: bold;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 28%;
+    height: 55px;
+    background: #C4C4C4;
+    border-radius: 8px;
+    border: 8px solid #C4C4C4;
+}
+    /*additional2 ends*/
